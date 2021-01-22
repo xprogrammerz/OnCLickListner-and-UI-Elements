@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Button1"
+    android:textSize="30sp"
+    android:textStyle="bold|italic"
+    android:textColor="@color/myColour"
+    android:id="@+id/txtButton1"
+    android:layout_centerInParent="true"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me"
+        android:id="@+id/btnClickme"
+        android:layout_below="@+id/txtButton1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read more"
+        android:id="@+id/btnReadMore"
+        android:layout_below="@+id/btnClickme"
+        android:layout_marginTop="15dp"
+        android:background="@color/myColour"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
